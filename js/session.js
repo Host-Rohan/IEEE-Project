@@ -64,7 +64,7 @@ function initApp() {
       console.log(window.location);
       url = window.location.href;
       if (url.includes("dashboard")) {
-        alert("protected data! please log in to continue");
+        alert("Data is Protected, please log in to continue");
         window.location = "register.html";
       }
 
